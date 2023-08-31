@@ -25,8 +25,8 @@ const ryuXInstance = new RyuX();
 This method takes a `question` and a `context` as input and attempts to find the most relevant sentence from the context that can answer the given question. It uses the Jaro-Winkler distance algorithm to measure the similarity between the question and sentences in the context.
 
 ```javascript
-const question = "What is the capital of France?";
-const context = "France is a beautiful country. Its capital is Paris.";
+const question = "What is france capital city?";
+const context = "France is a beautifull county. France Capital City is Paris";
 const answer = ryuXInstance.findAnswer(question, context);
 console.log(answer); // Outputs: "Its capital is Paris."
 ```
