@@ -28,7 +28,7 @@ This method takes a `question` and a `context` as input and attempts to find the
 const question = "What is france capital city?";
 const context = "France is a beautifull county. France Capital City is Paris";
 const answer = ryuXInstance.findAnswer(question, context);
-console.log(answer); // Outputs: "France Capital City is Paris"
+console.log(answer); // Outputs: "France Capital City is Paris."
 ```
 
 #### `cleanBadword(sentence)`
