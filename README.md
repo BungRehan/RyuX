@@ -6,9 +6,16 @@ The RyuX module is a JavaScript class designed to perform various text processin
 
 To use the RyuX module, you need to have Node.js installed on your system. You can then install the required dependencies by executing the following command in your project directory:
 
-```bash
-npm install natural keyword-extractor bad-words
+```json
+scripts:{
+    "ryux": "npm install natural keyword-extractor bad-words"
+}
 ```
+
+```bash
+npm run ryux
+```
+to install the required package 
 
 ### Usage
 
